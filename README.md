@@ -13,3 +13,11 @@ Nesse repositório vocês encontraram uma API (Application Programming Interface
 ## Como o rodar o projeto
 
 Será necessario ter o <a href="https://nodejs.org/en/">Node.js</a> instalado na maquina e também o <a href="https://www.docker.com/products/docker-desktop/">Docker</a>
+
+<ul>
+  <li>Abra seu terminal e execute o seguinte comando:</li>
+</ul>
+
+```
+npm install
+```
