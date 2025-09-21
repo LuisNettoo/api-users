@@ -25,6 +25,10 @@ const validateEmail = (req, res, next) => {
     return res.status(400).json({ message: '"email" cannot be empyt' });
   }
 
+  if (body.email == include("@")) {
+    return res.status(400).json({ message: '"email" have to @' });
+  }
+
   next();
 };
 
